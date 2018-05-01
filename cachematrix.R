@@ -2,6 +2,11 @@
 ## cacheSolve is a function which calculates the inverse of the matrix and 
 ## caches it for further use. It extracts the inverse from the cache if it
 ## is already calculated before.
+## Example: 
+## 1. m <- matrix(c(3,5,6,4,5,8,9,0,2), 3, 3)
+## 2. x <- makeCacheMatrix()
+## 3. x$set(m)
+## 4. cacheSolve(x)
 
 ## This function creates a special matrix and creates a list of functions 
 ## to be used for inverse operations on the matrix
